@@ -10,7 +10,7 @@ import time
 
 def player_hit_stay():
     # Hit or stay
-    hit_or_stay = input("\nDo you chose to \"Hit\" or \"Stay\"? [H/S]\n\n>>> ")
+    hit_or_stay = raw_input("\nDo you chose to \"Hit\" or \"Stay\"? [H/S]\n\n>>> ")
 
     if hit_or_stay == "H" or hit_or_stay == "h" or hit_or_stay == "hit" or hit_or_stay == "Hit":
         new_card = randint(1, 10)
